@@ -1,6 +1,6 @@
 '''
 
-Coeção de Tipos 
+Coerção de Tipos 
 int float str boolean
 
 '''
