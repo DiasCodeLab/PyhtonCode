@@ -13,5 +13,4 @@ else:
 
 
 #curto circuito
-
 print(False or False or True)
