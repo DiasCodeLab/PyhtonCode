@@ -6,3 +6,6 @@ if  convercao == len(nome[:3:1]):
     print(f'Possue o mesmo')
 else:
     print(f'O nome {nome} não contem nehum caracter')    
+
+oi = nome  not in 'Lucas'
+print(oi)
