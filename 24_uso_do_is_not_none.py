@@ -1,3 +1,7 @@
+#======================
+# Uso do is not e None
+#======================
+
 condicao = True
 passou_no_if = None
 
