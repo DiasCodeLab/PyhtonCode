@@ -1,8 +1,7 @@
 
 #=============++++++
-caracteres de escape
+#caracteres de escape
 #=============++++++
-s
 
 print("Mateus'Dias'") #Aspas simples dentro de aspas duplas
 

@@ -3,12 +3,11 @@
 #=======================
 
 
-numero = input('Digite um numero:' )
+numero = input('Digite um numero:' ).isdigit()
 
 try:
     numero_convertido_para_inteiro = float(numero)
-    print(f'STR : {numero}')
-    print(f'O numero Inteiro é {numero_convertido_para_intero}')
+    print(f'INT : {numero}')
     print(f'INT: {numero_convertido_para_inteiro}')
 except:
     print(f'Voce não digitou um numero' )
