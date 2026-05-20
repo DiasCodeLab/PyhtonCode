@@ -2,7 +2,6 @@
 # Linhas e Colunas e binarios
 #============================
 
-
 qtd_linhas = 0b0000000101
 qtd_coluna = 0b0000000101
 qtd_segunda_coluna = 0b0000000101
