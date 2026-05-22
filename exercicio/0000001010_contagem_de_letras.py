@@ -3,29 +3,32 @@ frase = "Quem aprende a dominar a própria mente, domina qualquer desafio que a 
 
 while True:
 
-    try:
+    menu = input( 'Deseja continuar ? [S]sim [N]não: ').lower().split()
 
-        menu = input( 'Deseja continuar ? [S]sim [N]não: ').lower()
-
-        if  menu  not in ('s','n'):
-            print('Voce não digitou uma letra...')
-            continue
+    if  menu  not in ('s','n'):
+        print('Voce não digitou uma letra...')
+        continue
         
-        if menu == 'n':
-            print('Volte sempre...')
-            break
+    if menu == 'n':
+        print('Volte sempre...')
+        break
 
-        letra = input('Digite a letra que deseja procurar: ')
+    letra = input('Digite a letra que deseja procurar: ')
 
-        frase_lower = frase.lower() 
+    frase_lower = frase.lower() 
 
-        if letra in frase_lower: 
-            contagem = frase_lower.count(letra)
-            print(f"foi identificasdo a letra: ({letra}) e ela se repete {contagem} vezes!")
-            continue    
-        else :
-            print(f'A frase não possui a letra {letra}')
-            continue
+    if letra in frase_lower: 
+        contagem = frase_lower.count(letra)
+        print(f"foi identificasdo a letra: ({letra}) e ela se repete {contagem} vezes!")
+        continue    
+    else :
+        print(f'A frase não possui a letra {letra}')
+        continue
 
-    except TypeError:
-       print('Erro, tente novamente...')
+
+
+    #com o metodo .split() separa uma frase em palavras permitindo assim contar quantas palavras tem
+    #na  frase
+
+    
+      
