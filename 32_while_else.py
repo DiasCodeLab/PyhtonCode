@@ -1,3 +1,8 @@
+#=======================
+#Uso do  while com  else
+#=======================
+
+
 nome = 'mateus dias'
 
 i = 0
