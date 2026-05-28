@@ -29,3 +29,4 @@ print(lista_a, end =' \n')
 #O trabalho ocorre diretamente em c baixo nivel sendo assim o mais rapido para junção de listas
 lista_a.extend(lista_b)
 print(lista_a)
+
