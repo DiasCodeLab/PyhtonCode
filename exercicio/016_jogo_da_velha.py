@@ -1,3 +1,7 @@
+#========================
+#Jogo da velha utilizando range() ramdom() join() len()
+#========================
+
 import random
 
 lista = ['mateus', 'dias']

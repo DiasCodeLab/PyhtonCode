@@ -1,5 +1,8 @@
+#==================================================
+#Usuraio e senha com uso do Try except e biblioteca
+#==================================================
 
-tentativas = 3
+entativas = 3
 usuario_senha = {
 
     'mateus':'1233'
